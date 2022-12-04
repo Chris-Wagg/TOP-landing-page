@@ -69,7 +69,7 @@ body {
 }
 
 button {
-	background-color: blue;
+	background-color: #3882f6;
 	color: white;
 	width: 100px;
 	height: auto;
@@ -118,8 +118,8 @@ button {
 	font-weight: 500;
 	font-style: italic;
 	align-items: flex-end;
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 500px;
+	padding-right: 500px;
 	padding-top: 50px;
 }
 
@@ -128,4 +128,45 @@ button {
 	height: 150px;
 	border: 3px solid #1f2937;
 	border-radius: 15px;
+}
+
+.container-four {
+	display: flex;
+	background-color: #3882f6;
+	border-radius: 15px;
+	margin: 100px;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 200px;
+}
+
+.container-four-main-content {
+	display: flex;
+	padding: 50px;
+}
+
+.container-four > button {
+	margin: 0;
+	margin-right: 30px;
+	border: 2px solid white;
+}
+
+.container-four-left-content {
+	display: flex;
+	flex-direction: column;
+	color: whit;
+}
+
+.container-four-left-content > .main-text {
+	font-size: 24px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f2937;
+	color: #f9faf8;
+	padding: 20px;
 }
