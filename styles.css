@@ -117,9 +117,10 @@ button {
 	align-items: center;
 	font-weight: 500;
 	font-style: italic;
-	/* align-items: flex-end; */
+	align-items: flex-end;
 	padding-left: 300px;
 	padding-right: 300px;
+	padding-top: 50px;
 }
 
 .image-container {
